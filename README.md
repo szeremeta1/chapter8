@@ -1,6 +1,6 @@
 # Chapter 8 Programming Projects (Java)
 
-From this `pp8` folder:
+From this folder:
 
 ```bash
 # Compile everything
