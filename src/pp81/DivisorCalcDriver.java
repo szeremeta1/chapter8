@@ -14,11 +14,6 @@ public class DivisorCalcDriver {
             int b = scanner.nextInt();
             int g = DivisorCalc.gcd(a, b);
             System.out.println("gcd(" + a + ", " + b + ") = " + g);
-        } catch (InputMismatchException ex) {
-            System.out.println("Please enter valid integers.");
-        } catch (IllegalArgumentException ex) {
-            System.out.println(ex.getMessage());
-        } finally {
             scanner.close();
         }
     }
